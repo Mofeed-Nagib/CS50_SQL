@@ -116,7 +116,7 @@ Your second report of a missing package comes from a mysterious fellow from out 
 
 In `log.sql`, underneath `-- *** The Devious Delivery ***`, keep track of the SQL queries you use to find the package. Once you’ve found it, describe it per the questions in `answers.txt`.
 
-# The Forgotten Gift
+## The Forgotten Gift
 
 <p>
 <img src="https://cs50.harvard.edu/sql/2024/psets/1/packages/gift.png" alt="A gift-wrapped package for a birthday, on a city doorstep, in the style of a plein air painting" style="width: 300px">
