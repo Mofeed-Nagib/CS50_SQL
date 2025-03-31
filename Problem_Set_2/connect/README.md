@@ -45,7 +45,7 @@ In a file called `schema.sql` in a folder called `connect`, write a set of SQL s
 
 <details><summary>Connections with People</summary><br/><p>LinkedIn’s database should be able to represent mutual (reciprocal, two-way) connections between <a href="#users">users</a>. No need to worry about one-way connections, such as user A “following” user B without user B “following” user A.</p></details>
 
-<details><summary>Connections with Schools</summary><br/><p>A <a href="#user">user</a> should be able to create an affiliation with a given school. And similarly, that school should be able to find its alumni. Additionally, allow a user to define:</p>
+<details><summary>Connections with Schools</summary><br/><p>A <a href="#users">user</a> should be able to create an affiliation with a given school. And similarly, that school should be able to find its alumni. Additionally, allow a user to define:</p>
 
 <ul class="fa-ul">
   <li data-marker="*"><span class="fa-li"><i class="fas fa-square"></i></span>The start date of their affiliation (i.e., when they started to attend the school)</li>
@@ -53,7 +53,7 @@ In a file called `schema.sql` in a folder called `connect`, write a set of SQL s
   <li data-marker="*"><span class="fa-li"><i class="fas fa-square"></i></span>The type of degree earned/pursued (e.g., “BA”, “MA”, “PhD”, etc.)</li>
 </ul></details>
 
-<details><summary>Connections with Companies</summary><br/><p>A <a href="#user">user</a> should be able to create an affiliation with a given company. And similarly, a company should be able to find its current and past employees. Additionally, allow a user to define:</p>
+<details><summary>Connections with Companies</summary><br/><p>A <a href="#users">user</a> should be able to create an affiliation with a given company. And similarly, a company should be able to find its current and past employees. Additionally, allow a user to define:</p>
 
 <ul class="fa-ul">
   <li data-marker="*"><span class="fa-li"><i class="fas fa-square"></i></span>The start date of their affiliation (i.e., the date they began work with the company)</li>
